@@ -1,8 +1,31 @@
 # Route Planning Project
 
-This repo contains the starter code for the Route Planning project.
+## OpenStreetMap Route Planning Project
 
-<img src="map.png" width="600" height="450" />
+### Overview
+
+This project demonstrates the use of the A* search algorithm to calculate the shortest route between two points on an OpenStreetMap.
+
+**Key Features**
+
+- Parses OpenStreetMap data using the IO2D library.
+- Implements the A* algorithm for efficient route planning.
+- Visualizes the calculated path on the map.
+
+**Technologies Used**
+
+- Programming Language: C++
+- Libraries: IO2D, STL containers
+- Algorithm: A* search
+
+**Usage**
+
+- Clone the repository and navigate to the project directory.
+- Build the project using the provided Makefile or CMake configuration.
+- Run the executable to load the map and select start and end points.
+
+
+<center><img src="map.png" width="600" height="450" /></center>
 
 ## Cloning
 
